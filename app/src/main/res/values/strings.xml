@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Expenses</string>
+    <string name="widget_description">Mast Widget</string>
 </resources>
