@@ -1,4 +1,5 @@
 package com.example.expenses
+
 import android.content.Context
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.unit.dp
@@ -54,6 +55,14 @@ class BalanceWidget : GlanceAppWidget() {
                     fontSize = 28.sp,
                     fontWeight = FontWeight.Bold,
                     color = balanceColor
+                )
+            )
+            Spacer(GlanceModifier.height(8.dp))
+            Text(
+                text = "Send UPI SMS to update",
+                style = TextStyle(
+                    fontSize = 12.sp,
+                    color = GlanceTheme.colors.onSurfaceVariant
                 )
             )
         }
